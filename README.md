@@ -4,4 +4,4 @@
 
 
 
-Observação: Na pasta dos arquivos py, tudo que começa com 'mod' é módulo para ser usado. Os demais itens são de aulas e para consulta de alguns fundamentos básicos
+Observação: Na pasta Das Aulas, tudo que começa com 'mod' é módulo para ser usado. Os demais itens são de aulas e para consulta de alguns fundamentos básicos
