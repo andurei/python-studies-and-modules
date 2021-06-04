@@ -4,4 +4,4 @@
 
 
 
-Observação: Na pasta Das Aulas, tudo que começa com 'mod' é módulo para ser usado. Os demais itens são de aulas e para consulta de alguns fundamentos básicos
+Observação: Na pasta Das Aulas, tudo que começa com 'mod' é módulo para ser usado em produção. Os demais itens de outras aulas são para  consulta de alguns fundamentos básicos
