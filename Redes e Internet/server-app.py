@@ -14,20 +14,20 @@ s.bind((host, port)) # vinculamos o hostname e a porta
 
 s.listen(5) # Servidor fica esperando por alguem cliente (escutando), limitando-se a 5 conexões por vez
 
-while True:
+while 1:
     
-    conn, addr = s.accept() #
+    conn, addr = s.accept() # Aceita a Conexão
 
     print('Conectado no endereço', addr)
 
-    while True:
+    while 1:
 
-        data = conn.recv(1024)
+        data = conn.recv(1024) # Recebe os dados com limitação de bytes
 
         if not data:
             break
     
-        conn.send(b'' + data)
+        conn.send(b'' + data) # Envia string em formato de bytes
 
        
     conn.close()

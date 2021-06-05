@@ -12,16 +12,16 @@ s.bind((host, port)) # vinculamos o hostname e a porta
 
 s.listen(1) # Servidor fica esperando por alguem cliente, limitando-se a 5 conexões por vez
 
-while True:
+while 1: 
     conexão, endereço = s.accept()
     print('Server conectado por', endereço)
     
-    while True:
-        data = conexão.recv(1024)
-        print("Ele: ", data.decode())
+    while 1:
+        data = conexão.recv(1024) # recebe o dado 
+        print("Ele: ", data.decode()) 
         
         resposta = input("Você: ")
 
-        conexão.send(resposta.encode())
+        conexão.send(resposta.encode()) # envia o dado 
 
     conexão.close()
