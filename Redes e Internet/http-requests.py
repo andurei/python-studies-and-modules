@@ -6,7 +6,7 @@ import urllib.error as urlError
 from socket import gaierror
 
 try:
-    
+
     response = urlopen('http://www.debianxyz.org')
 
     print(response)
@@ -24,7 +24,7 @@ except(urlError.URLError, gaierror ):
     print('status')
 
 try:
-
+    
     urlopen('http://www.ietf.org/rfc/rfc0.txt')
 
 except urlError.HTTPError as e:
